@@ -32,7 +32,7 @@ Los parametros que se pasan  son:
 |CHROMIUM_PATH  |String          |`""`                            |Path de CHROMIUM_PATH para poder hacer el renderizado en el servidor si no se require mandar `""`           |
 |format         |String          |`""`                            |El formato que se le dara al PDF puedes ver los formatos [AQUÍ](#Formatos)                                               |
 
-#### Formatos
+### Formatos
  -Formatos permitidos
 
 | Formatos  |

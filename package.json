@@ -1,7 +1,7 @@
 {
   "name": "jc-htmltopdf",
   "version": "0.0.1",
-  "description": "Paquete para exportar un PDF desde un html",
+  "description": "Paquete para generar un PDF desde un html",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,5 +14,14 @@
     "handlebars": "^4.7.8",
     "hbs": "^4.2.0",
     "puppeteer": "^21.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josecd/jc-htmltopdf#Formatos"
+  },
+  "bugs": {
+    "url": "https://github.com/josecd/jc-htmltopdf/issues"
+  },
+  "homepage": "https://github.com/josecd/jc-htmltopdf#readme"
 }

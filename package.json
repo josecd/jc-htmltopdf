@@ -18,7 +18,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/josecd/jc-htmltopdf#Formatos"
+    "url": "git+https://github.com/josecd/jc-htmltopdf"
   },
   "bugs": {
     "url": "https://github.com/josecd/jc-htmltopdf/issues"

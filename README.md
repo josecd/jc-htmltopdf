@@ -3,6 +3,9 @@ Proyecto para convertir un template html a PDF
 
 #### NPM
 
+
+[Página de npm de la librería](https://www.npmjs.com/package/jc-htmltopdf)
+
 Instalar `npm install --save jc-htmltopdf`
 
 

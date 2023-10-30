@@ -1,12 +1,16 @@
 {
   "name": "jc-htmltopdf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Paquete para generar un PDF desde un html",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [ "javascript",
+  "pdf-generation",
+  "html",
+  "htmlToPdf"
+ ],
   "author": "José Alejandro Cordero Díaz",
   "license": "ISC",
   "dependencies": {

@@ -14,7 +14,7 @@ Instalar `npm install --save jc-htmltopdf`
 Una vez instalado, jc-htmltopdf está listo para usar.
 
 ```js
-const generatepdfHtml = require('jc-htmltopdf')
+const { jcGeneratepdfHtml } = require('jc-htmltopdf')
 jcGeneratepdfHtml(htmlPath, info, CHROMIUM_PATH, format);
 ```
 

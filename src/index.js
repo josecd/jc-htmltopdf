@@ -23,7 +23,7 @@ const puppeteer = require('puppeteer')
 const jcGeneratepdfHtml = async (htmlPath, info, CHROMIUM_PATH, format) => {
  
   if (esFormatoValido(format) == false) {
-    format = Tabloid
+    format = "Tabloid"
     console.warn('Formato no admitido se asigno Tabloid ');
   }
 
@@ -75,12 +75,12 @@ const jcGeneratepdfHtml = async (htmlPath, info, CHROMIUM_PATH, format) => {
   await page.setContent(content)
   const buffer = await page.pdf({
     printBackground: true,
-    margin: {
-      left: '10mm',
-      top: '10mm',
-      right: '10mm',
-      bottom: '10mm'
-    },
+    // margin: {
+    //   left: '10mm',
+    //   top: '10mm',
+    //   right: '10mm',
+    //   bottom: '10mm'
+    // },
     format: format | 'Tabloid'
   })
   await browser.close()
@@ -108,5 +108,5 @@ const esFormatoValido = formato => {
 }
 
 module.exports = {
-  generatepdfHtml
+  jcGeneratepdfHtml
 }

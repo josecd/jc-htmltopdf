@@ -1,6 +1,6 @@
 {
   "name": "jc-htmltopdf",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Paquete para generar un PDF desde un html",
   "main": "src/index.js",
   "scripts": {

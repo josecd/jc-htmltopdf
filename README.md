@@ -53,7 +53,7 @@ Los parametros que se pasan  son:
 
 ## Proyecto ejemplo
 
-[Proyecto ejemplo de HTML a PDF](https://github.com/josecd)
+[Proyecto ejemplo de HTML a PDF](https://github.com/josecd/jcExampleHtmlToPdf)
 
 
 ## Créditos
